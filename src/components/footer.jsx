@@ -34,9 +34,14 @@ const Footer = () => {
           &nbsp;接口&nbsp;|&nbsp;检测频率 5 分钟
         </p>
         <p>
-          Copyright&nbsp;&copy;&nbsp;2020&nbsp;-&nbsp;{new Date().getFullYear()}
+          全站使用&nbsp;
+          <CustomLink to="https://cloudflare.com/" text="Cloudflare" />
+          &nbsp;进行代理&nbsp;，&nbsp;此处仅代表网站正常工作
+        </p>
+        <p>
+          Copyright&nbsp;&copy;&nbsp;2024&nbsp;-&nbsp;{new Date().getFullYear()}
           &nbsp;
-          <CustomLink to="https://www.imsyy.top/" text="無名" />
+          <CustomLink to="https://leafing.xyz/" text="琳峰" />
           {siteIcp ? (
             <React.Fragment>
               &nbsp;|&nbsp;
